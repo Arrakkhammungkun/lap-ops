@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'git@github.com:your-repo/your-next-app.git'
+                git 'git@github.com:Arrakkhammungkun/lap-ops.git'
             }
         }
 
