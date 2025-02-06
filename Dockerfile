@@ -14,7 +14,8 @@ COPY . .
 RUN npm run build
 
 # เปิดพอร์ต 3000 (หรือเปลี่ยนตามต้องการ)
-EXPOSE 3000
+EXPOSE 4445
+
 
 # รันแอป
 CMD ["npm", "run", "start"]
